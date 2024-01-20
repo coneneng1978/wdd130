@@ -27,3 +27,24 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+img {
+    max-width: 100%; /* Fix: Use max-width for responsive images */
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
