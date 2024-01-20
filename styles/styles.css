@@ -38,7 +38,7 @@ h1 {
 }
 
 img {
-    max-width: 100%; /* Fix: Use max-width for responsive images */
+    max-width: 100%; 
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
