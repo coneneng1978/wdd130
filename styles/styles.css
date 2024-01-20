@@ -28,14 +28,14 @@ main {
 aside {
     width: 35em;
     margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    border: 1px solid rgba(0, 0, 0, 0.2); 
     padding: 1em;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 aside img {
-    width: 400px;
+    width: 200px;
     height: auto;
     
 }
