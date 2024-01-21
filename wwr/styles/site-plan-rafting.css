@@ -18,10 +18,10 @@ body{
     padding: 20px;
     background-color: var(--primary-color);
     color: var(--nav-link-color);
-}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var (--primary-color);
 }
 header {
     padding: 20px;
@@ -29,6 +29,8 @@ header {
 }
 p {
     padding: 25px;
+}
+
 }
 nav {
     background-color: var(--nav-background-color);
