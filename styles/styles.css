@@ -60,7 +60,7 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 5x;
+    top: 705x;
     left: 455px;
     color: steelblue;
 }
@@ -100,7 +100,7 @@ footer {
 }
 
 .box2 {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 40px;
     margin-right: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
