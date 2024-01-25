@@ -65,7 +65,7 @@ aside h2 {
 }
 
 aside img {
-    margin:0 auto;
+    margin:20 auto;
     width: 450px;
     height: auto;
 }
@@ -91,7 +91,7 @@ footer {
     margin-left: 20px;
     margin-right: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     padding-right:3rem;
     width: 840px;
     background-color: #ddd;
