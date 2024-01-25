@@ -47,7 +47,7 @@ main {
 }
 
 aside {
-    position: relavite;
+    position: relative;
     width: 35em;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); 
@@ -58,8 +58,8 @@ aside {
 }
 
 aside h2 {
-    /*position: absolute;*/
-    *top: 605x;
+    position: absolute;
+    top: 605x;
     left: 455px;
     color: steelblue;
 }
