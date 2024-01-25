@@ -45,6 +45,17 @@ main img {
     display: inline-block;
     margin-right: 10px
 }
+.box {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.5rem;
+    padding-right:3rem;
+    width: 840px;
+    background-color: #ddd;
+    color: #000;
+}
 
 footer{
     margin-top: 15px;
