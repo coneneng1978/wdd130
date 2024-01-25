@@ -43,6 +43,7 @@ aside {
     text-align: center;
 }
 aside img {
+    margin:0 auto;
     width: 300px;
     height: auto;
     
