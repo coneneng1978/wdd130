@@ -50,7 +50,7 @@ main {
 
 aside {
     width: 35em;
-    margin: 1em;
+    margin: 10em;
     border: 1px solid rgba(0, 0, 0, 0.2); 
     padding: 1em;
     background-color: #eee;
