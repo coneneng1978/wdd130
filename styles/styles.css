@@ -59,14 +59,14 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 5px;
+    top: 3px;
     left: 35px;
     color: steelblue;
 }
 
 aside img {
     margin:20 auto;
-    padding:3px;
+    padding:5px;
     width: 450px;
     height: auto;
 }
