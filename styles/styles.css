@@ -48,8 +48,9 @@ aside h2 {
 main img {
     width: 150px;
     height: auto;
-    display: inline-block;
-    margin-right: 10px
+    float: right;
+    margin-right: 1px;
+    margin-left: 10px;
 }
 .box {
     margin-top: 50px;
