@@ -25,6 +25,8 @@ body {
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    font-size: 1.8rem;
+    margin-top:15px;
 }
 
 header {
