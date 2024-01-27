@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:1000,1000italic|Inconsolata:italic|Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:100,100italic|Inconsolata:italic|Droid+Sans');
+
 :root {
     --primary-color: #96BBBB;  
     --secondary-color: #618985;
@@ -11,22 +12,26 @@
     --nav-hover-link-color: #bdc3c7;  
     --nav-hover-background-color: #0d47a1;
 }
-body{
-    font-family:var(--paragraph-font);
+
+body {
+    font-family: var(--paragraph-font);
     max-width: 960px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 20px;
     background-color: var(--primary-color);
     color: var(--nav-link-color);
 }
+
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    color: var (--accent2-color);
+    color: var(--accent2-color);
 }
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
+
 p {
     padding: 25px;
 }
@@ -34,18 +39,24 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display:flex
+    display: flex; /* Added semicolon */
 }
+
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding:1rem;
+    padding: 1rem;
 }
-nav a:link:visited {
+
+
+nav a, nav a: visited {
+    
     color: var(--nav-link-color);
+    background-color: var(--nav-hover-background-color);
 }
-nav a:hover{
+
+nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color:var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
 }
