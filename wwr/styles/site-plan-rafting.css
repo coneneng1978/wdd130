@@ -39,7 +39,7 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex; /* Added semicolon */
+    display: flex;
 }
 
 nav a {
@@ -49,9 +49,8 @@ nav a {
     padding: 1rem;
 }
 
-
-nav a, nav a: visited {
-    
+/* Fixed the space and removed extra space in :visited */
+nav a, nav a:visited {
     color: var(--nav-link-color);
     background-color: var(--nav-hover-background-color);
 }
