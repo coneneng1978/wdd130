@@ -24,7 +24,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     font-size: 1.8rem;
     margin-top:15px;
 }
@@ -51,10 +51,8 @@ nav a {
     padding: 1rem;
 }
 
-/* Fixed the space and removed extra space in :visited */
-nav a, nav a:visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
-    background-color: var(--nav-hover-background-color);
 }
 
 nav a:hover {
