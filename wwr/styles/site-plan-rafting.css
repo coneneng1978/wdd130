@@ -1,35 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:1000,1000italic|Inconsolata:italic|Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:100,100italic|Inconsolata:italic|Droid+Sans');
+
 :root {
     --primary-color: #96BBBB;  
     --secondary-color: #618985;
     --accent1-color: #453d35; 
     --accent2-color: #F2E3BC;  
-    --heading-font: 'DM Sans', serif, bolditalic;
+    --heading-font: 'Helvetica', sans-serif;
     --paragraph-font: 'Helvetica', sans-serif;
     --nav-background-color: #1565c0;  
     --nav-link-color: #ecf0f1; 
     --nav-hover-link-color: #bdc3c7;  
     --nav-hover-background-color: #0d47a1;
 }
-body{
-    font-family:var(--paragraph-font);
+
+body {
+    font-family: var(--paragraph-font);
     max-width: 960px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 20px;
     background-color: var(--primary-color);
     color: var(--nav-link-color);
 }
+<<<<<<< HEAD
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var (--primary-color);
     font-size: 1.8rem
    
+=======
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+>>>>>>> 787d81d3dc61ce6ec572894fa8019177d5488165
 }
 
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
+
 p {
     padding: 25px;
 }
@@ -37,18 +47,21 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display:flex
+    display: flex;
 }
+
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding:1rem;
+    padding: 1rem;
 }
-nav a:link:visited {
+
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-nav a:hover{
+
+nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color:var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
 }
