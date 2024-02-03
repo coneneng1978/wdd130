@@ -139,76 +139,14 @@ section p {
     top: 20px; 
 }
 
-section p1 {
-    position: relative;
-    font: var(--heading-font);
-    clear:both;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    margin-left: 0px;
-    top: 340px;
-    right: 500px;
-    transform: translateY(-50%);
-    color: #1f44b4;
-}
-
-section p2 {
-    position: absolute;
-    margin-left: 0px;
-    font: var(--heading-font);
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    top: 1820px;
-    right: 950px;
-    transform: translateY(-50%);
-    color: #1f44b4;
-}
-
-section p3 {
-    position: absolute;
-    font: var(--heading-font);
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    top: 2200px;
-    right: 950px;
-    transform: translateY(-50%);
-    color: #1f44b4;
-}
-
-section p4 {
-    position: absolute;
-    font: var(--heading-font);
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    top: 2520px;
-    right: 890px;
-    transform: translateY(-50%);
-    color: #1f44b4;
-}
-
-section p5 {
-    position: absolute;
-    font: var(--heading-font);
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    top: 2930px;
-    right: 820px;
-    transform: translateY(-50%);
-    color: #1f44b4;
-}
 
 section img {
     position: relative;
     float: left;
     margin-left: 10px;
-    margin-bottom: 50px; 
-    width: 500px; 
-    height: auto;
+    margin-bottom: 0px; 
+    width: 550px; 
+    height: 370px;
     
 }
 
