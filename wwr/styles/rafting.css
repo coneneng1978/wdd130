@@ -124,7 +124,7 @@ section h2{
     font-size: 1.5rem;
     margin-left: 20px;
 }
-
+/*
 section h3{
     top: 20px;
     padding-top: 40px;
@@ -132,6 +132,7 @@ section h3{
     font-size: 1.5rem;
     margin-left: 20px;
 }
+*/
 section p {
     position: relative;
     font: var(--paragraph-font);
