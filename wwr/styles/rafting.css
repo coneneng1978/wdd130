@@ -253,6 +253,9 @@ section h3 {
     max-height: 100%;
 }
 
+footer{
+    padding:0px
+}
 .footer {
     display: flex;
     justify-content: flex-end;
@@ -264,22 +267,22 @@ section h3 {
 }
 
 .footer .column {
-    flex: 1; 
+    flex: 1; /* Equal width for each column */
     text-align: center;
 }
 
 .footer p {
     color: #6682f4;
     background-color: transparent;
-    margin: 0;
+    margin: 0; /* Remove margin */
     font: var(--paragraph-font);
     font-weight: bold;
 }
 
 .footer nav.sociallink {
     display: flex;
-    align-items: last baseline;
-    justify-content: left; 
+    align-items: center;
+    justify-content: le; 
 }
 
 .footer nav.sociallink a {
