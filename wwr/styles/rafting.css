@@ -17,12 +17,13 @@
 }
 
 body {
-    margin: 0;
+    margin: 50px;
+    margin-top: 100px;
     font-family: 'Arial', sans-serif;
     display: grid;
-    grid-template-rows: 200px 300px 20px 500px 400px 550px;
+    grid-template-rows: 200px 300px 20px 350px 20px 250px 250px;
     grid-gap: 5px;
-    min-height: 50vh;
+    min-height: 150vh;
     max-width: 1360px;
     margin: 0 auto;
     padding: 5px;
@@ -39,6 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1px;
 }
 
 nav {
@@ -150,19 +152,35 @@ article p {
 
 .body {
     margin-top: 170px;
-    height: auto;
+    height: 10px;
+    display: grid;
+    grid-template-columns: 550px 250px auto;
+    grid-gap: 5px;
+
+}
+
+.body-image img {
+    box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*
+.body {
+    margin-top: 10px;
+    height: 250px;
     grid-row: span 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: 500px 350px auto;
     grid-gap: 5px;
-    /*background-color: rgba(62, 116, 203, 0.551);*/
+    /*background-color: rgba(62, 116, 203, 0.551);
     padding: 5px;
     text-align: center;
     box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
 }
 
 .body-text, .body-image, .body-text-2 {
-    /*background-color: rgba(62, 116, 203, 0.551);*/
+    /*background-color: rgba(62, 116, 203, 0.551);
     padding: 5px;
     text-align: left;
 }
@@ -173,44 +191,61 @@ article p {
     max-height: 100%;
 }
 
-.fourth-row {
-    grid-row: span 1;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 5px;
-    padding: 20px;
-    margin-top: 1px;
-    margin-bottom: 15px;
-    box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
-}
-
-section h3 {
-    font: var(--heading-font);
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #263e9e;
-    grid-row: 1;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    text-align: center;
-}
+*/
 
 section h2 {
     font: var(--heading-font);
     font-size: 1.5rem;
     font-weight: bold;
     color: #263e9e;
-    grid-row: 1;
+    grid-row: 3;
     margin-bottom: 3px;
     margin-top: 145px;
     text-align: center;
 }
+section h3 {
+    font: var(--heading-font);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #263e9e;
+    grid-row: 5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left:60px;
+    text-align: center;
+}
+/*
+
+.fourth-row {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-gap: 5px;
+    padding: 10px;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    margin-left: 10px;
+    box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
+}
+*/
+
+.fifth-row {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-gap: 5px;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
 
 .column {
-    /*background-color: rgba(62, 116, 203, 0.551);*/
+    /*background-color: rgba(161, 190, 236, 0.551);*/
+    background-color:transparent;
     padding: 10px;
     text-align: center;
-    margin-top: 100px;
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .column img {
@@ -218,36 +253,40 @@ section h2 {
     max-height: 100%;
 }
 
-footer {
+.footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 0px;
+    margin-top: 10px;
+    padding: 20px;
     border-top: 1px solid #263e9e;
     box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
 }
 
-.footer-content {
-    display: flex;
-    align-items: center;
+.footer .column {
+    flex: 1; 
+    text-align: center;
 }
 
-footer p {
+.footer p {
     color: #6682f4;
-    background-color: transparent; /* Change 'none' to 'transparent' */
-    margin: 0px 0px;
-    text-align: left;
+    background-color: transparent;
+    margin: 0;
     font: var(--paragraph-font);
-    font-weight: bold; /* Combine 'font' properties */
+    font-weight: bold;
 }
 
-.footer-images {
+.footer nav.sociallink {
     display: flex;
-    align-items: center;
+    align-items: last baseline;
+    justify-content: left; 
 }
 
-footer img {
+.footer nav.sociallink a {
+    margin-left: 10px;
+}
+
+.footer nav.sociallink img {
     width: 50px;
-    height: auto;
-    margin-left: 10px; /* Adjust this value as needed */
+    height: 50px;
 }
