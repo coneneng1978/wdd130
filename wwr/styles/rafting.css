@@ -153,7 +153,7 @@ article p {
     height: auto;
     grid-row: span 1;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-gap: 5px;
     /*background-color: rgba(62, 116, 203, 0.551);*/
     padding: 5px;
