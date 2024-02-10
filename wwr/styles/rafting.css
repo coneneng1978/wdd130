@@ -280,7 +280,7 @@ section h3 {
 .footer nav.sociallink {
     display: flex;
     align-items: center;
-    justify-content: le; 
+    justify-content: left; 
 }
 
 .footer nav.sociallink a {
