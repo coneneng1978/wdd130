@@ -267,14 +267,14 @@ footer{
 }
 
 .footer .column {
-    flex: 1; /* Equal width for each column */
+    flex: 1;
     text-align: center;
 }
 
 .footer p {
     color: #6682f4;
     background-color: transparent;
-    margin: 0; /* Remove margin */
+    margin: 0;
     font: var(--paragraph-font);
     font-weight: bold;
 }
