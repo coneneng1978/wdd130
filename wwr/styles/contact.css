@@ -225,7 +225,7 @@ section h3 {
 }
 
 /* Apply styles to the submit button */
-.container input[type="submit"] {
+.container button[type="submit"] {
     background-color: #04AA6D;
     color: #fff;
     padding: 12px 20px;
@@ -234,6 +234,10 @@ section h3 {
     cursor: pointer;
 }
 
+/* Hover effect for the button */
+.container button[type="submit"]:hover {
+    background-color: #45a049;
+}
 /* Hover effect for the submit button */
 .container input[type="submit"]:hover {
     background-color: #45a049;
