@@ -211,8 +211,9 @@ section h3 {
     max-height: 100%;
 }
 
-
-input[type=text], select, textarea {
+.container input[type="text"],
+.container select,
+.container textarea {
     width: 100%;
     padding: 12px;
     border: 2px solid #ccc;
@@ -221,32 +222,33 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
+}
 
-  input[type=submit] {
+/* Apply styles to the submit button */
+.container input[type="submit"] {
     background-color: #04AA6D;
-    color: rgb(255, 255, 255);
+    color: #fff;
     padding: 12px 20px;
-    border: black;
+    border: 2px solid black;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
+}
 
-  input[type=submit]:hover {
+/* Hover effect for the submit button */
+.container input[type="submit"]:hover {
     background-color: #45a049;
-  }
-  
+}
 
-  .container {
+/* Style the container */
+.container {
     margin-top: 50px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    
-  }
-  h4 {
+}
+
+/* Style the h4 heading */
+.container h4 {
     text-align: center;
     color: #333;
 }
@@ -254,7 +256,7 @@ input[type=text], select, textarea {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 450px;
     padding: 20px;
     border-top: 1px solid #263e9e;
     box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
