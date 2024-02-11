@@ -21,7 +21,7 @@ body {
     margin-top: 100px;
     font-family: 'Arial', sans-serif;
     display: grid;
-    grid-template-rows: 200px 300px 20px 350px 20px 250px 250px 250px;
+    grid-template-rows: 200px 300px 20px 350px 20px 250px 250px 50px;
     grid-gap: 5px;
     min-height: 800vh;
     max-width: 1360px;
@@ -268,13 +268,14 @@ input[type=text], select, textarea {
 .footer p {
     color: #6682f4;
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 30px;
     font: var(--paragraph-font);
     font-weight: bold;
 }
 
 .footer nav.sociallink {
     display: flex;
+    margin-top: 30px;
     align-items: center;
     justify-content: left; 
 }
