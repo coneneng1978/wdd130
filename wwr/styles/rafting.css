@@ -299,6 +299,10 @@ section h3 {
     text-align: center;
     color: #333;
 }
+
+footer {
+    margin-top: 900px;
+}
 .footer {
     display: flex;
     justify-content: flex-end;
