@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connie Cruz Aunario | WDD 130 | Adventure Connect | Trips</title>
+    <meta name="description" content="This is Trips Page Design">
+    <meta name="author" content="Connie Cruz Aunario">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">-->
+
+    <style>
+    header {
+        background: url('images/home1.jpg') center/cover no-repeat; 
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        height: 480px;
+    }
+
+    footer {
+        background-color: #3366cc;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1 fr 1fr 1fr; /* Two columns */
+        align-items: right;
+        }
+
+        .footer-left {
+        grid-column: 2;
+        }
+
+        .footer-right {
+        grid-column: 3;
+        text-align: right;
+        }
+
+        .social-icons a {
+        margin-left: 1em;
+        }
+
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-banner">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="contact-icons">
+            <a href="tel:+(632)1234567890"><i class="fas fa-phone-alt"></i> +1 (123) 456-7890</a>
+            <a href="#"><i class="fas fa-comment-alt"></i> Live Chat</a>
+            <a href="#"><i class="fas fa-info-circle"></i> Info</a>
+        </div>
+    </div>
+
+    <div class="secondary-banner">
+
+        <button class="book-now-btn" onclick="window.location.href='contact.html'">Book Now</button>
+    </div>
+
+    <header>
+        <img src="images/logo.png" alt="Your Logo" class="logo">
+        <h1>Adventure Connect</h1>
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <!--<img src="images/hero.jpg" alt="Rapids Water Rafting Hero Image">-->
+            <!--<h1>Rapids Water Rafting</h1>-->
+            <article>
+                <img src="images/trip1.jpg" alt="Rafting Employees">
+                <p>Embark on an exhilarating white rafting adventure that seamlessly blends thrills with inclusivity and safety, creating an unforgettable experience for family and friends of all ages. Our meticulously designed trips provide not only the excitement of conquering rapids but also a welcoming environment where everyone, including your furry companions, can join in the fun. With a focus on safety measures and inclusiveness, our pet-friendly white rafting adventures ensure that every member of the family, regardless of age, can share in the joy of navigating the river's twists and turns together. Join us for a memorable journey where the spirit of adventure knows no bounds!</p>
+            </article>
+        </div>
+
+    </main>
+
+        <section id="history">
+            <h2 style="color: rgb(15, 51, 170);">Choose Your Adventure Connect Rafting Trip Packages!</h2>
+        </section>
+
+        <div class="body2">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>River</th>
+                        <th>Difficulty Level</th>
+                        <th>Duration</th>
+                        <th>Safety Measures</th>
+                        <th>Pricing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Family Fun Float</td>
+                        <td>Harmony Rapids</td>
+                        <td>Easy</td>
+                        <td>2 hours</td>
+                        <td>Certified Guides; Life Vest Provided</td>
+                        <td>Php 1500.00</td>
+                    </tr>
+                    <tr>
+                        <td>Wild Rapid Expedition</td>
+                        <td>Thunderbolt Torrent</td>
+                        <td>Difficult</td>
+                        <td>5 Hours</td>
+                        <td>Experienced guides, full safety training</td>
+                        <td>Php 3500.00</td>
+                    </tr>
+                    <!-- Add more rows for additional trips -->
+                    <tr>
+                        <td>Paws and Paddles Expedition</td>
+                        <td>Serene Paws Creek</td>
+                        <td>Moderate</td>
+                        <td>3 Hours</td>
+                        <td>Certified pet-friendly rafts, pet life vests</td>
+                        <td>Php 1800.00</td>
+                    </tr>
+                    <tr>
+                        <td>Sunset Serenity Rafting</td>
+                        <td>Twilight Tranquil River</td>
+                        <td>Easy</td>
+                        <td>1.5 Hours</td>
+                        <td>Evening safety protocols, Calm waters</td>
+                        <td>Php 1200.00</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+        </div>
+
+        <section id="adventure">
+            <h2 style="color: rgb(15, 56, 180);">Our Adventure Connect Rafting Packages</h2>
+        </section>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="employee-info">
+                    <div class="label">Rafting for the Family</div>
+                    <img src="images/level1.jpg" alt="Rafting Image 1">
+                    <h3>Family Fun Float</h3>
+                    <p>The Family Fun Float is centered around a leisurely floating experience, ideal for families with members of all ages. Drift along calm stretches of the river, allowing everyone to soak in the tranquility and natural beauty. An enjoyable and laid-back river adventure designed specifically for families seeking a more relaxed yet entertaining experience.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="employee-info">
+                    <div class="label2">Pet-Friendly Package</div>
+                    <img src="images/level2.jpg" alt="Rafting Image 1">
+                    <h3>Paws and Paddles Expedition</h3>
+                    <p>Paws and Paddles ensures a pet-friendly environment with specifically designed rafts, equipped with secure areas for pets to enjoy the adventure alongside their owners.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="employee-info">
+                    <div class="label3">Serene Adventure</div>
+                    <img src="images/level3.jpg" alt="Rafting Image 1">
+                    <h3>Sunset Serenity Rafting</h3>
+                    <p>Sunset Serenity Rafting" is a captivating river adventure designed to immerse participants in the tranquil beauty of nature as the sun gracefully sets.Experience the river in a different light as the expedition unfolds during the magical hours of sunset. The calm and serene waters create a tranquil atmosphere, offering a unique and peaceful rafting experience.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="employee-info">
+                    <div class="label4">Challenging Adventure</div>
+                    <img src="images/level4.jpg" alt="Rafting Image 1">
+                    <h3>Wild Rapid Expedition</h3>
+                    <p>Wild Rapid Expedition is a high-energy and adrenaline-packed river adventure tailored for thrill-seekers and those looking for an exhilarating white-water experience.Navigate through twists, turns, and exhilarating drops, creating a pulse-pounding adventure.</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        
+        <footer>
+            <div class="footer-left">
+                <p>&copy; 2024 Rapids Water Rafting Adventure. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <div class="social-icons">
+                    <nav class="sociallink">
+                        <a href="https://facebook.com">
+                            <img src="images/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://twitter.com">
+                            <img src="images/twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="https://instagram.com">
+                            <img src="images/instagram.svg" alt="Instagram">
+                        </a>
+                        <!-- Add the link for trips.jpg -->
+                        <a href="images/trips.jpg" target="_blank">Wireframe</a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>

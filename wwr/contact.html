@@ -7,142 +7,207 @@
     <meta name="description" content="This is the Contact Us Page Design">
     <meta name="author" content="Connie Cruz Aunario">
     <link rel="stylesheet" href="styles/rafting.css">
-  </head>
-  <body>
-    <header>
-        <img src="images/logo.png" alt="Adventure Connect Company Logo" width="200">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">-->
+
+    <style>
+    header {
+        background: url('images/home1.jpg') center/cover no-repeat; 
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        height: 480px;
+    }
+
+    footer {
+        background-color: #3366cc;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Two columns */
+        align-items:center;
+        }
+
+        .footer-left {
+        grid-column: 2;
+        }
+
+        .footer-right {
+        grid-column: 3;
+        text-align: right;
+        }
+
+        .social-icons a {
+        margin-left: 1em;
+        }
+
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-banner">
         <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
+        <div class="contact-icons">
+            <a href="tel:+11234567890"><i class="fas fa-phone-alt"></i> +1 (123) 456-7890</a>
+            <a href="#"><i class="fas fa-comment-alt"></i> Live Chat</a>
+            <a href="#"><i class="fas fa-info-circle"></i> Info</a>
+        </div>
+    </div>
+
+    <div class="secondary-banner">
+
+        <button class="book-now-btn" onclick="window.location.href='contact.html'">Book Now</button>
+    </div>
+
+    <header>
+        <img src="images/logo.png" alt="Your Logo" class="logo">
+        <h1>Rapids Water Rafting Adventure</h1>
     </header>
+
     <main>
+
         <div class="hero">
-            <img src="images/hero.jpg" alt="Adventure Connect Rafting Image">
-            <h1>Contact Us at Adventure Connect</h1>
+            <!--<img src="images/hero.jpg" alt="Rapids Water Rafting Hero Image">-->
+            <!--<h1>Rapids Water Rafting</h1>-->
             <article>
-                <h5>Connect!!</h5>
-                <img src="images/contact_us.jpg" alt="employees">
-                <p> Hello Adventurous Explorers!! Thanks for exploring our website!! Whether you're a seasoned rafter or a first-timer, our passionate team, made up of avid nature, family and dog lovers, is here to make your experience safe, exciting, and unforgettable. Have questions or just want to chat about the thrilling world of rafting and nature exploration? Please fill out the form below. We'd love to hear from you. Feel free to reach out through the contact information provided. Your excitement drives us, and we can't wait to share the thrill of white water rafting with you and your whole adventure-loving family, furry friends included!.</p>
+                <h6>.</h6>
+                <img src="images/contact_us.jpg" alt="Rafting Employees">
+                <p>Hello Adventurous Explorers!! Thanks for exploring our website!! Whether you're a seasoned rafter or a first-timer, our passionate team, made up of avid nature, family and dog lovers, is here to make your experience safe, exciting, and unforgettable. Have questions or just want to chat about the thrilling world of rafting and nature exploration? Please fill out the form below. We'd love to hear from you. Feel free to reach out through the contact information provided. Your excitement drives us, and we can't wait to share the thrill of white water rafting with you and your whole adventure-loving family, furry friends included!</p>
             </article>
         </div>
+
     </main>
-    <section>
-        <h2>Visit Us Here</h2>
-    </section>
-    <div class="body">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62589.56377161665!2d122.04820791258307!3d11.345830097961938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af938e24ed8b9b%3A0xe07d6d4bfb33e304!2sTibiao%20River!5e0!3m2!1sen!2sph!4v1707645224578!5m2!1sen!2sph" width="500" height="180" style="border:1px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="body-image">
-            <img src="images/center-image.jpg" alt="Body Image">
-        </div>
-        <div class="body-text-2">
-            <p>
-                <strong><u style="color: rgb(23, 140, 229);">Contact Information</u></strong><br><br>
-                <strong>Email:</strong> <a href="mailto:info@adventureconnect.com">info@adventureconnect.com</a><br>
-                <strong>Phone:</strong> (+632) 123-456789<br>
-                <strong>Address:</strong> H. Bandoja St., Poblacion, Tibiao, Antique, Philippines
-            </p>
-        </div>
-    </div>    
-    <section>
-        <h3>Meet Our Dedicated Adventure Connect Team</h3>
-    </section>
-    <div class="fifth-row">
-        <div class="column">
-            <figure>
-            <img src="images/Sarah_Reynes.jpg" alt="Sarah_Reynes">
-            <figcaption><strong>Sarah Reynes <br></strong>Rafting Operations Manager</figcaption>
-            </figure>
-        </div>
-        <div class="column">
-            <figure>
-            <img src="images/Marlyn_Balbero.jpg" alt="Marlyn_Balbero">
-            <figcaption><strong>Marlyn Balbero <br></strong>Senior Rafting Guide</figcaption>
-            </figure>
-        </div>
-        <div class="column">
-            <figure>
-            <img src="images/Marlon_Manzano.jpg" alt="Marlon_Manzano">
-            <figcaption><strong>Marlon Manzano <br></strong> Canine Adventure Specialist</figcaption>
-            </figure>
-        </div>
-        <div class="column">
-            <figure>
-            <img src="images/Myrna_Tolention.jpg" alt="Myrna_Tolention">
-            <figcaption><strong>Myrna Tolention <br></strong> Safety and Training Coordinator </figcaption>
-            </figure>
-        </div>
-        <div class="column">
-            <figure>
-            <img src="images/Portia_Cruz.jpg" alt="Portia_Cruz">
-            <figcaption><strong>Portia Cruz <br></strong> Equipment and Gear Expert</figcaption>
-            </figure>
-        </div>
-    </div>
-    <div class="container">
-        <h4>CLIENT INFORMATION</h4>
-        <form action="action_page.php">
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    
-            <label for="email">Email Address</label>
-            <input type="text" id="email" name="email" placeholder="Your email..">
-    
-            <label for="purpose">Purpose</label>
-            <select id="purpose" name="Purpose of Message">
-                <option value="generalinquiry">Select your purpose among the options..</option>
-                <option value="generalinquiry">General Inquiry</option>
-                <option value="reservationquestion">Reservation Question</option>
-                <option value="websitesuggestion">Website Suggestion</option>
-            </select>
-    
-            <label for="message">Message</label>
-            <textarea id="message" name="Message" placeholder="Write message here.." style="height:100px"></textarea>
-    
-            <strong><label for="newsletter">Subscribe to the monthly newsletter</label></strong>
-            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"><br><br>
-    
-            <strong><label>Preferred Contact Method</label></strong>
-            <div>
-                <input type="radio" id="contact_email" name="contact_method" value="email">
-                <label for="contact_email">Email</label>
-    
-                <input type="radio" id="contact_phone" name="contact_method" value="phone">
-                <label for="contact_phone">Phone</label>
-    
-                <input type="radio" id="contact_none" name="contact_method" value="none">
-                <label for="contact_none">None</label>
+
+        <section id="history">
+            <h2 style="color: rgb(43, 14, 204);">Where To Find Us</h2>
+        </section>
+
+        <div class="body">
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62589.56377161665!2d122.04820791258307!3d11.345830097961938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af938e24ed8b9b%3A0xe07d6d4bfb33e304!2sTibiao%20River!5e0!3m2!1sen!2sph!4v1707645224578!5m2!1sen!2sph" width="450" height="350" style="border:1px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
+            <div class="body-image">
     
-            <button type="submit">Send Your Message</button>                                                                                              
-        </form>
-    </div>
-    <div class="footer">
-        <div class="column">
+                <img src="images/center-image.jpg" alt="Body Image">
+            </div>
+            <div class="body-text-2"><p>
+                    <strong><u style="color: rgb(13, 55, 207);">Contact Information</u></strong><br><br>
+                    <strong>Email:</strong> <a href="mailto:info@adventureconnect.com">info@adventureconnect.com</a><br><br>
+                    <strong>Phone:</strong> +(632)123456789<br><br>
+                    <strong>Address:</strong> H. Bandoja St., Poblacion, Tibiao, Antique, Philippines</p></div>
+            </div>
+
+        <section id="adventure">
+            <h2 style="color: rgb(13, 55, 207);">Get to Know Us</h2>
+        </section>
+
+
+
+
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="images/Sarah_Reynes.jpg" alt="Rafting Image 1">
+                <h3>Sarah Reynes </h3>
+                <p>Meet Sarah Reynes, our Operations Manager. With extensive experience in outdoor recreation and event management, Sarah ensures the flawless execution of our rafting adventures. Her leadership and passion for safety guarantee an unforgettable and worry-free experience for all participants.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/Marlyn_Balbero.jpg" alt="Rafting Image 2">
+                <h3>Marlyn Balbero</h3>
+                <p>Meet Marlyn, our Senior Rafting Guide, a seasoned expert with years of experience navigating the waters. Marlyn brings a wealth of knowledge and a deep love for river adventures to every trip. As a leader on our team, Marlyn not only ensures the safety of participants but also enhances the overall experience with engaging insights about the river and its surroundings. With a focus on creating memorable moments, Marlyn's expertise and enthusiasm make her an integral part of our rafting team.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/Marlon_Manzano.jpg" alt="Rafting Image 2">
+                <h3>Marlon Manzano</h3>
+                <p>Introducing Marlon, our Canine Adventure Specialist, a devoted expert in ensuring our furry friends have an unforgettable experience on the river. Marlon's passion for animals and extensive knowledge of pet-friendly adventures make him an essential part of our team. With a keen understanding of pet behavior and safety, Marlon ensures that our "Paws and Paddles Expedition" provides a joyful and secure experience for both pets and their owners. His commitment to creating a pet-friendly environment adds an extra layer of enjoyment to our rafting adventures, making them truly unique and inclusive.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/Myrna_Tolention.jpg" alt="Rafting Image 2">
+                <h3>Myrna Tolention</h3>
+                <p>Meet Myrna, our Safety and Training Coordinator, a pivotal member of our team with a focus on ensuring the highest standards of safety for all our rafting adventures. With a background in safety management and training, Myrna oversees comprehensive safety protocols, conducts rigorous training sessions, and ensures that our staff is well-prepared to handle any situation on the water. Myrna's dedication to creating a secure environment for both participants and staff underscores our commitment to providing thrilling yet safe experiences. Her attention to detail and proactive approach contribute significantly to the success and reliability of our rafting operations.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/Portia_Cruz.jpg" alt="Rafting Image 2">
+                <h3>Portia Cruz</h3>
+                <p>Meet Portia, our Equipment and Gear Expert, an indispensable member of our team dedicated to ensuring the reliability and quality of our rafting equipment. With a wealth of expertise in outdoor gear and a keen eye for detail, Portia meticulously maintains and inspects all our equipment to guarantee optimal performance on every adventure. From life vests to rafts, Portia's commitment to excellence ensures that participants can embark on their river journey with confidence, knowing they are equipped with top-notch gear. Portia's passion for adventure and expertise in equipment management make her an essential part of creating a safe and enjoyable experience for all our adventurers.</p>
+            </div>
         </div>
-        <div class="column">
-            <p>©️2024 | Adventure Connect | Connie Cruz Aunario</p>
-        </div>
-        <div class="column">
-            <nav class="sociallink">
-                <a href="https://facebook.com">   
-                    <img src="images/facebook.svg" alt="Facebook">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="images/twitter.svg" alt="Twitter">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.svg" alt="Instagram">
-                </a> 
-            </nav>
-        </div>
-    </div>
+
+        <div class="container">
+            <h4>Contact Information</h4>
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
     
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" placeholder="Type your email address here..">
+    
+                <label for="Purpose">Purpose of the Message</label>
+                <select id="Purpose" name="Purpose">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Reservation request">Reservation Request</option>
+                    <option value="Website Suggestion">Website Suggestion</option>
+                </select>
+    
+                <!-- Add these radio buttons -->
+                <label>Preferred Contact Method:</label>
+                <input type="radio" id="contact-email" name="contact-method" value="email">
+                <label for="contact-email">Email</label>
+                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <label for="contact-phone">Phone</label>
+                <input type="radio" id="contact-none" name="contact-method" value="none">
+                <label for="contact-none">None</label>
+    
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+    
+                <label for="newsletter">Subscribe to the monthly newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+    
+                <button type="submit">Please Proceed</button>
+            </form>
+        </div>
+
+
+
+
+    <footer>
+        <div class="footer-left">
+            <p>&copy; 2024 Rapids Water Rafting Adventure. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <div class="social-icons">
+                <nav class="sociallink">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.svg" alt="Instagram">
+                    </a>
+                </nav>  
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>

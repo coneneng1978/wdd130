@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Connect Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">-->
+
+    <style>
+    header {
+        background: url('images/home1.jpg') center/cover no-repeat; 
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        height: 480px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-banner">
+        <nav>
+            <a href="https://coneneng1978.github.io/wdd130">Homepage</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="contact-icons">
+            <a href="tel:+11234567890"><i class="fas fa-phone-alt"></i> (+632) 123-456789</a>
+            <a href="#"><i class="fas fa-comment-alt"></i> Online Chat</a>
+            <a href="#"><i class="fas fa-info-circle"></i> Info</a>
+        </div>
+    </div>
+
+    <div class="secondary-banner">
+
+        <button class="book-now-btn" onclick="window.location.href='contact.html'">Book Now</button>
+    </div>
+
+    <header>
+        <img src="images/logo.png" alt="Your Logo" class="logo">
+        <h1>Water Rafting Adventure for Everyone!</h1>
+        <p>AdventureConnect: Thrills, Nature, Inclusivity Everywhere!!</p>
+        <a href="trips.html" class="find-trip-btn">Find Your Trip</a>
+    </header>
+
+    <main>
+        <div class="reservation-box">
+            <h2>Book with Us!!</h2>
+            <p>Book now and join the excitement of navigating thrilling rapids with our expert guides – an adventure for the whole family, including your furry friends.
+            </p></br></br>
+            <button class="book-now-btn" onclick="window.location.href='contact.html'">Reserve Now</button>
+        </div>
+
+        <div class="activity-preparation-box">
+            <h2>Prepare Your Trip</h2>
+            <p>Prepare your trip: Secure your spot now by making a reservation and get ready to experience the exhilaration of navigating thrilling rapids with our professional guides. Ensure a memorable adventure for the whole family, including your dogs and other pets, by planning ahead.</p></br></br>
+            <button class="get-started-btn" onclick="window.location.href='trips.html'">Get Started</button>
+        </div>
+
+        </div>
+
+        <section id="home">
+            <h2>Our Five Pillars</h2>
+            <ul>
+                <li><strong>AFFORDABLE ADVENTURE</strong> Budget-friendly options to make thrilling white water rafting experiences accessible to everyone.</li>
+                <li><strong>FAMILY INCLUSIVITY</strong> Family-friendly packages that cater to all age groups, ensuring a memorable and safe adventure for every member.</li>
+                <li><strong>PET-FRIENDLY EXPEDITIONS</strong> Welcoming furry companions on our trips, recognizing that adventures are best enjoyed with the whole family, including pets.</li>
+                <li><strong>EXPERT GUIDED EXPEDITIONS</strong> Professional guides to ensure a safe and enjoyable rafting experience, enhancing the adventure for both beginners and seasoned enthusiasts.</li>
+                <li><strong>COMMUNITY CONNECTION</strong> Fostering a sense of community among adventure seekers, building relationships that go beyond the rapids and creating lasting memories for all participants.</li>
+            </ul>
+            <a href="about.html" class="about-us-btn">About Us</a>
+        </section>
+
+        <section id="recommended">
+            <h2 style="color: rgb(170, 15, 15);">Highly Recommended with Great Reviews</h2>
+            <p style="color: black; font-size: 1.2em;">All-Outdoors is the most recommended whitewater rafting outfitter in Cagayan. See for yourself:</p>
+
+            <div class="social-icons-row">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.jpg" alt="Facebook"></a>
+                <a href="https://www.yelp.com/" target="_blank"><img src="images/yelp.jpg" alt="Yelp"></a>
+                <a href="https://www.tripadvisor.com/" target="_blank"><img src="images/tripadvisor.jpg" alt="TripAdvisor"></a>
+                <a href="https://www.google.com/" target="_blank"><img src="images/chrome.jpg" alt="Google"></a>
+            </div>
+        </section>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="images/image1a.jpg" alt="Rafting Image 1">
+                <h3>Wild Rapid Expedition</h3>
+                <p>Navigate the heart-pounding excitement of challenging Class IV and V rapids on this adrenaline-pumping adventure. Led by our expert guides, this expedition is designed for thrill-seekers looking for an intense white water rafting experience.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/image2a.jpg" alt="Rafting Image 2">
+                <h3>Family Fun Float</h3>
+                <p>An ideal adventure for families, this trip offers a mix of mild rapids and serene stretches, ensuring an enjoyable experience for all ages. Our professional guides provide a safe and entertaining journey, creating lasting memories for the entire family.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/image3a.jpg" alt="Rafting Image 2">
+                <h3>Sunset Serenity Rafting</h3>
+                <p>Experience the magic of white water rafting under the golden hues of the setting sun. This evening adventure combines the thrill of navigating rapids with the tranquility of nature, providing a unique and picturesque rafting experience.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/image4a.jpg" alt="Rafting Image 2">
+                <h3>Paws and Paddles Expedition</h3>
+                <p>Bring your four-legged friends on this pet-friendly rafting adventure. Specially designed to accommodate furry companions, this trip allows families to share the excitement of white water rafting with their dogs, creating a memorable experience for both humans and pets alike.</p>
+            </div>
+
+        </div>
+
+        <!-- Add a row after the grid container -->
+        <div class="row-container">
+            <!-- Left column for the newsletter form -->
+            <div class="left-column">
+                <div id="newsletter-form">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <form action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right column for the embedded YouTube video -->
+            <div class="right-column">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vruR3yI7x7E?si=SUQidHNldP3heSOS&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <p>&copy; 2024|Adventure Connect|</p>
+        </div>
+        <div class="footer-right">
+            <div class="social-icons">
+                <nav class="sociallink">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.svg" alt="Instagram">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
